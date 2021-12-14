@@ -9,7 +9,7 @@ This is not original but inspire by  [react-native-wheel-datepicker](https://git
 ## How to use
 
 ```
-npm install react-native-wheel-pick
+npm install @react-native-picker/picker react-native-wheel-pick
 react-native link react-native-wheel-pick
 ```
 [react-native-wheel-pick](https://www.npmjs.com/package/react-native-wheel-pick)
@@ -33,7 +33,7 @@ const isIos = Platform.OS === 'ios'
 
 // use DatePicker
 <DatePicker
-  style={{ backgroundColor: 'white', height: 215, width: isIos ? 300 : undefined }} 
+  style={{ backgroundColor: 'white', height: 215, width: isIos ? 300 : undefined }}
   // android not support width
   onDateChange={date => { }}
 />
